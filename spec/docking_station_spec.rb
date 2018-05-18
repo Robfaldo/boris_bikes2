@@ -22,6 +22,7 @@ describe DockingStation do
   end
 
   describe '#release_bike' do
+
     it 'responds to release_bike' do
       expect(DockingStation.new).to respond_to(:release_bike)
     end

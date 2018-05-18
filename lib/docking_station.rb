@@ -39,7 +39,7 @@ class DockingStation
       end
       # return bike && @bikes.delete_at(index) if bike.working?
     end
-    return false
+    fail 'No bikes available'
   end
 
   private

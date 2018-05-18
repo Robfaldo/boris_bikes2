@@ -7,7 +7,7 @@ describe Bike do
       expect(Bike.new).to respond_to(:report_broken)
     end
 
-    it 'change working to false' do
+    it 'changes working to false' do
       subject.report_broken
       expect(subject.working?).to be false
     end
